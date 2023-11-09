@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wgth@0,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu_navegacao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DEEAB9;
+}
+ul, li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-family: Lato;
+    cursor: pointer;
+}
+.img_logo {
+    width: 96px;
+    height: 96px;
+}
+.conteudo_principal {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+h3 {
+    background-color: #006633;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    font-size: 22px;
+}
+h1 {
+    font-family: Lato;
+}
+.videos {
+    text-align: center;
+    padding-top: 50px;
+}
+h5 {
+    padding: 6px;
+    display: flex;
+    padding-left: 415px;
+    font-size: 25px;
+    padding-top: 20px;
+    
+}
+.rodapé {
+    background-color: #006633;
+    height: 50px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 60px;
+}
